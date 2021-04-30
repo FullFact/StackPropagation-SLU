@@ -136,6 +136,12 @@ class Processor(object):
                       'the intent acc is {:2.6f}, the semantic acc is {:.2f}, cost about ' \
                       '{:2.6f} seconds.\n'.format(epoch, dev_f1_score, dev_acc, dev_sent_acc, time_con))
 
+
+    def predict_sentence(self):
+        """this will get the intents and slots for a sentence"""
+        return []
+
+
     def estimate(self, if_dev, test_batch=100):
         """
         Estimate the performance of model on dev or test dataset.
