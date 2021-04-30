@@ -1,6 +1,23 @@
 # A Stack-Propagation Framework with Token-Level Intent Detection for Spoken Language Understanding
 
 This repository contains the PyTorch implementation of the paper: **A Stack-Propagation Framework with 
+#Intent Detection 
+
+We want to automate the process of fact checking. We want our users to be able to search for a fact something like ‘has unemployment rise over the last two years?’. We then want to be able to understand the intent behind the question and return the relevant data.
+
+An automated fact-checking system might include several different sub-tasks such as retrieving documents from a variety of sources that might either support or contradict a claim; detecting the stance of each article in regards to the purported claim; assessing the reputation and therefore the trustworthiness of each article; and claim verification, which evaluates both stance of the article and reputation of the source to establish how truthful the claim is.
+
+Problem Breakdown:
+
+- Understand user intent
+- Find relevant information
+- Use information to answer the question accurately
+- Present the answer back to the user in a readable format
+
+
+
+
+
 Token-Level Intent Detection for Spoken Language Understanding**. If you use any source codes or the datasets included in this toolkit in your work, please cite the following paper. The bibtex are listed below:
 
 <pre>
